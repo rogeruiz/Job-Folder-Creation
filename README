@@ -1,0 +1,17 @@
+============
+Project Info
+============
+
+This is a simple AppleScript I created on my second-to-last day at Tekweld. Creating folders by hand is time-consuming, but the only way to stay organized. After creating about 2,000, with a T, folders by hand and command+shift+N claw behind me, I decided it was time to write my own little script in the first language I ever tried on my original Indigo iMac G3. My original attempt at creating a script like this led to editing variables in the AppleScript Editor so that the repeat loop could iterate through them and name the files. This version is much better as it prompts the user and can be self-contained. This script has been left behind so that both my trained-replacement and my ex-coworkers can easily and quickly create folders without getting carpal tunnel.
+
+============
+Project Task
+============
+
+The concept is simple. It prompts the user to select the Indigo Preflight folder where all the folders go. It then prompts for the starting job number and the ending job number. Finally, it loops through the numbers and creates folders for each number. It also has a two fail-safes in place where it checks that the location is correct and allows the user to back out of creating it.
+
+===========
+Final Notes
+===========
+
+If anyone has any suggestions or critiques, I'm more than happy to hear them. Also if this code helps any one out there create numbered folders, let me know. I'd love to hear what you are using it for. We used it to create numbered job folders to store files that we would then sent to an Indigo 4500. Boy, could that thing print.
